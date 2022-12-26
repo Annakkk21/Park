@@ -1,0 +1,30 @@
+C:\Users\usersql\Desktop\Старцв Данил ИС-19 ( Курсвая )\Project\Tester\Tester\Tester\bin\Debug\Tester.exe.config
+C:\Users\usersql\Desktop\Старцв Данил ИС-19 ( Курсвая )\Project\Tester\Tester\Tester\bin\Debug\Tester.exe
+C:\Users\usersql\Desktop\Старцв Данил ИС-19 ( Курсвая )\Project\Tester\Tester\Tester\bin\Debug\Tester.pdb
+C:\Users\usersql\Desktop\Старцв Данил ИС-19 ( Курсвая )\Project\Tester\Tester\Tester\obj\Debug\Tester.csprojAssemblyReference.cache
+C:\Users\usersql\Desktop\Старцв Данил ИС-19 ( Курсвая )\Project\Tester\Tester\Tester\obj\Debug\Tester.exe
+C:\Users\usersql\Desktop\Старцв Данил ИС-19 ( Курсвая )\Project\Tester\Tester\Tester\obj\Debug\Tester.pdb
+C:\Users\User\Desktop\L7\Старцв Данил ИС-19 ( Курсвая )\Project\Tester\Tester\Tester\bin\Debug\Tester.exe.config
+C:\Users\User\Desktop\L7\Старцв Данил ИС-19 ( Курсвая )\Project\Tester\Tester\Tester\bin\Debug\Tester.exe
+C:\Users\User\Desktop\L7\Старцв Данил ИС-19 ( Курсвая )\Project\Tester\Tester\Tester\bin\Debug\Tester.pdb
+C:\Users\User\Desktop\L7\Старцв Данил ИС-19 ( Курсвая )\Project\Tester\Tester\Tester\obj\Debug\Tester.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\L7\Старцв Данил ИС-19 ( Курсвая )\Project\Tester\Tester\Tester\obj\Debug\Tester.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\L7\Старцв Данил ИС-19 ( Курсвая )\Project\Tester\Tester\Tester\obj\Debug\Tester.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\L7\Старцв Данил ИС-19 ( Курсвая )\Project\Tester\Tester\Tester\obj\Debug\Tester.exe
+C:\Users\User\Desktop\L7\Старцв Данил ИС-19 ( Курсвая )\Project\Tester\Tester\Tester\obj\Debug\Tester.pdb
+C:\Users\User\Desktop\Tester\Tester\bin\Debug\Tester.exe.config
+C:\Users\User\Desktop\Tester\Tester\bin\Debug\Tester.exe
+C:\Users\User\Desktop\Tester\Tester\bin\Debug\Tester.pdb
+C:\Users\User\Desktop\Tester\Tester\obj\Debug\Tester.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Tester\Tester\obj\Debug\Tester.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Tester\Tester\obj\Debug\Tester.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Tester\Tester\obj\Debug\Tester.exe
+C:\Users\User\Desktop\Tester\Tester\obj\Debug\Tester.pdb
+C:\Users\кц\Desktop\Анино\PP\Tester\Tester\bin\Debug\Tester.exe.config
+C:\Users\кц\Desktop\Анино\PP\Tester\Tester\bin\Debug\Tester.exe
+C:\Users\кц\Desktop\Анино\PP\Tester\Tester\bin\Debug\Tester.pdb
+C:\Users\кц\Desktop\Анино\PP\Tester\Tester\obj\Debug\Tester.csproj.AssemblyReference.cache
+C:\Users\кц\Desktop\Анино\PP\Tester\Tester\obj\Debug\Tester.csproj.SuggestedBindingRedirects.cache
+C:\Users\кц\Desktop\Анино\PP\Tester\Tester\obj\Debug\Tester.csproj.CoreCompileInputs.cache
+C:\Users\кц\Desktop\Анино\PP\Tester\Tester\obj\Debug\Tester.exe
+C:\Users\кц\Desktop\Анино\PP\Tester\Tester\obj\Debug\Tester.pdb

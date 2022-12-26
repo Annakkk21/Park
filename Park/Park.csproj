@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DAB38334-7270-4B3B-B244-3A7576D4FA29}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Park</RootNamespace>
+    <AssemblyName>Park</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.Base, Version=23.0.18.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
+      <HintPath>..\packages\EO.WebBrowser.23.0.18\lib\EO.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.Pdf, Version=23.0.18.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
+      <HintPath>..\packages\EO.Pdf.23.0.18\lib\EO.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.WebBrowser, Version=23.0.18.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
+      <HintPath>..\packages\EO.WebBrowser.23.0.18\lib\EO.WebBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="EO.WebEngine, Version=23.0.18.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
+      <HintPath>..\packages\EO.WebBrowser.23.0.18\lib\EO.WebEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1004\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="zxing, Version=0.16.8.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.8\lib\net47\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.8.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.8\lib\net47\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_form.Designer.cs">
+      <DependentUpon>Admin_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientMenu.Designer.cs">
+      <DependentUpon>ClientMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client_add.Designer.cs">
+      <DependentUpon>Client_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPKiODataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CPKiODataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CPKiODataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CPKiODataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CPKiODataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CPKiODataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CPKiODataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CPKiODataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="History_admin_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="History_admin_form.Designer.cs">
+      <DependentUpon>History_admin_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="meta.cs" />
+    <Compile Include="Otchet_admin_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Otchet_admin_form.Designer.cs">
+      <DependentUpon>Otchet_admin_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prodavec_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prodavec_form.Designer.cs">
+      <DependentUpon>Prodavec_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sklad_add_admin_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sklad_add_admin_form.Designer.cs">
+      <DependentUpon>Sklad_add_admin_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sklad_admin_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sklad_admin_form.Designer.cs">
+      <DependentUpon>Sklad_admin_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sklad_red_admin_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sklad_red_admin_form.Designer.cs">
+      <DependentUpon>Sklad_red_admin_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sotrudnik.cs" />
+    <Compile Include="sqlManager.cs" />
+    <Compile Include="StarPoSmene_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StarPoSmene_form.Designer.cs">
+      <DependentUpon>StarPoSmene_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StarPoSmene_oformlenie_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StarPoSmene_oformlenie_form.Designer.cs">
+      <DependentUpon>StarPoSmene_oformlenie_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StarPoSmene_oformlenie_zavershenie_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StarPoSmene_oformlenie_zavershenie_form.Designer.cs">
+      <DependentUpon>StarPoSmene_oformlenie_zavershenie_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usluga.cs" />
+    <Compile Include="variantsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="variantsForm.Designer.cs">
+      <DependentUpon>variantsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vhod_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vhod_form.Designer.cs">
+      <DependentUpon>Vhod_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Zakaz.cs" />
+    <Compile Include="Zakrit_zakaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zakrit_zakaz.Designer.cs">
+      <DependentUpon>Zakrit_zakaz.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin_form.resx">
+      <DependentUpon>Admin_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientMenu.resx">
+      <DependentUpon>ClientMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client_add.resx">
+      <DependentUpon>Client_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History_admin_form.resx">
+      <DependentUpon>History_admin_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Otchet_admin_form.resx">
+      <DependentUpon>Otchet_admin_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prodavec_form.resx">
+      <DependentUpon>Prodavec_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sklad_add_admin_form.resx">
+      <DependentUpon>Sklad_add_admin_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sklad_admin_form.resx">
+      <DependentUpon>Sklad_admin_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sklad_red_admin_form.resx">
+      <DependentUpon>Sklad_red_admin_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StarPoSmene_form.resx">
+      <DependentUpon>StarPoSmene_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StarPoSmene_oformlenie_form.resx">
+      <DependentUpon>StarPoSmene_oformlenie_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StarPoSmene_oformlenie_zavershenie_form.resx">
+      <DependentUpon>StarPoSmene_oformlenie_zavershenie_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="variantsForm.resx">
+      <DependentUpon>variantsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vhod_form.resx">
+      <DependentUpon>Vhod_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Zakrit_zakaz.resx">
+      <DependentUpon>Zakrit_zakaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="CPKiODataSet.xsc">
+      <DependentUpon>CPKiODataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CPKiODataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CPKiODataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CPKiODataSet.xss">
+      <DependentUpon>CPKiODataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CPKiODataSet1.xsc">
+      <DependentUpon>CPKiODataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CPKiODataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CPKiODataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CPKiODataSet1.xss">
+      <DependentUpon>CPKiODataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CPKiODataSet2.xsc">
+      <DependentUpon>CPKiODataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="CPKiODataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CPKiODataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CPKiODataSet2.xss">
+      <DependentUpon>CPKiODataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="CPKiODataSet3.xsc">
+      <DependentUpon>CPKiODataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="CPKiODataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CPKiODataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CPKiODataSet3.xss">
+      <DependentUpon>CPKiODataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Добавить.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
